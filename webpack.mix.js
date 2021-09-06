@@ -12,7 +12,12 @@ const mix = require('laravel-mix');
  */
 
 mix
-.js('resources/js/core.js', 'public/assets/js')
-.postCss('resources/css/core.css', 'public/assets/css', [
-    //
-]);
+.ts('resources/ts/app.ts', 'public/assets/js/core.js')
+//.js('resources/js/app.js', 'public/assets/js')
+.sass('resources/sass/app.scss', 'public/assets/css/core.css')
+.sourceMaps()
+//.postCss('resources/css/app.css', 'public/assets/css', [
+//    require('bootstrap'),
+//    require('@fortawesome/fontawesome-free')
+//])
+;
