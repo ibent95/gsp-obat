@@ -13,8 +13,11 @@ const mix = require('laravel-mix');
 
 mix
 .ts('resources/ts/app.ts', 'public/assets/js/core.js')
-//.js('resources/js/app.js', 'public/assets/js')
+.js('resources/stisla/js/stisla.js', 'public/assets/js')
+.js('resources/stisla/js/scripts.js', 'public/assets/js')
 .sass('resources/sass/app.scss', 'public/assets/css/core.css')
+.css('resources/stisla/css/style.css', 'public/assets/js')
+.css('resources/stisla/css/components.css', 'public/assets/js')
 .sourceMaps()
 //.postCss('resources/css/app.css', 'public/assets/css', [
 //    require('bootstrap'),
