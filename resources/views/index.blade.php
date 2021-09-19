@@ -23,7 +23,7 @@
 
 	<div class="container">
 
-		<h3>Home</h3>
+		<!--@include('content')-->
 
 		<!-- Button trigger modal -->
 		<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#bootstrapModal" data-bs-whatever="@mdo" id="bootstrapModalButton">
