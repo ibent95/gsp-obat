@@ -1,8 +1,5 @@
 {
-    "/assets/js/stisla.js": "/assets/js/stisla.js",
-    "/assets/js/scripts.js": "/assets/js/scripts.js",
     "/assets/js/core.js": "/assets/js/core.js",
-    "/assets/js/components.css": "/assets/js/components.css",
-    "/assets/js/style.css": "/assets/js/style.css",
-    "/assets/css/core.css": "/assets/css/core.css"
+    "/assets/css/core.css": "/assets/css/core.css",
+    "/assets/css/style.css": "/assets/css/style.css"
 }

@@ -1,377 +1,251 @@
-<div class="navbar-bg"></div>
-<nav class="navbar navbar-expand-lg main-navbar">
-	<form class="form-inline mr-auto">
-		<ul class="navbar-nav mr-3">
-			<li><a href="#" data-toggle="sidebar" class="nav-link nav-link-lg"><i class="fas fa-bars"></i></a></li>
-			<li><a href="#" data-toggle="search" class="nav-link nav-link-lg d-sm-none"><i class="fas fa-search"></i></a></li>
-		</ul>
-		<div class="search-element">
-			<input class="form-control" type="search" placeholder="Search" aria-label="Search" data-width="250">
-			<button class="btn" type="submit"><i class="fas fa-search"></i></button>
-			<div class="search-backdrop"></div>
-			<div class="search-result">
-				<div class="search-header">
-					Histories
-				</div>
-				<div class="search-item">
-					<a href="#">How to hack NASA using CSS</a>
-					<a href="#" class="search-close"><i class="fas fa-times"></i></a>
-				</div>
-				<div class="search-item">
-					<a href="#">Kodinger.com</a>
-					<a href="#" class="search-close"><i class="fas fa-times"></i></a>
-				</div>
-				<div class="search-item">
-					<a href="#">#Stisla</a>
-					<a href="#" class="search-close"><i class="fas fa-times"></i></a>
-				</div>
-				<div class="search-header">
-					Result
-				</div>
-				<div class="search-item">
-					<a href="#">
-						<img class="mr-3 rounded" width="30" src="assets/img/products/product-3-50.png" alt="product">
-						oPhone S9 Limited Edition
-					</a>
-				</div>
-				<div class="search-item">
-					<a href="#">
-						<img class="mr-3 rounded" width="30" src="assets/img/products/product-2-50.png" alt="product">
-						Drone X2 New Gen-7
-					</a>
-				</div>
-				<div class="search-item">
-					<a href="#">
-						<img class="mr-3 rounded" width="30" src="assets/img/products/product-1-50.png" alt="product">
-						Headphone Blitz
-					</a>
-				</div>
-				<div class="search-header">
-					Projects
-				</div>
-				<div class="search-item">
-					<a href="#">
-						<div class="search-icon bg-danger text-white mr-3">
-							<i class="fas fa-code"></i>
-						</div>
-						Stisla Admin Template
-					</a>
-				</div>
-				<div class="search-item">
-					<a href="#">
-						<div class="search-icon bg-primary text-white mr-3">
-							<i class="fas fa-laptop"></i>
-						</div>
-						Create a new Homepage Design
-					</a>
+<!-- [ Mobile header ] start -->
+<div class="pc-mob-header pc-header">
+	<div class="pcm-logo">
+		<img src="assets/images/logo.svg" alt="" class="logo logo-lg">
+	</div>
+	<div class="pcm-toolbar">
+		<a href="#!" class="pc-head-link" id="mobile-collapse">
+			<div class="hamburger hamburger--arrowturn">
+				<div class="hamburger-box">
+					<div class="hamburger-inner"></div>
 				</div>
 			</div>
-		</div>
-	</form>
-	<ul class="navbar-nav navbar-right">
-		<li class="dropdown dropdown-list-toggle"><a href="#" data-toggle="dropdown" class="nav-link nav-link-lg message-toggle beep"><i class="far fa-envelope"></i></a>
-			<div class="dropdown-menu dropdown-list dropdown-menu-right">
-				<div class="dropdown-header">Messages
-					<div class="float-right">
-						<a href="#">Mark All As Read</a>
-					</div>
-				</div>
-				<div class="dropdown-list-content dropdown-list-message">
-					<a href="#" class="dropdown-item dropdown-item-unread">
-						<div class="dropdown-item-avatar">
-							<img alt="image" src="assets/img/avatar/avatar-1.png" class="rounded-circle">
-							<div class="is-online"></div>
-						</div>
-						<div class="dropdown-item-desc">
-							<b>Kusnaedi</b>
-							<p>Hello, Bro!</p>
-							<div class="time">10 Hours Ago</div>
-						</div>
-					</a>
-					<a href="#" class="dropdown-item dropdown-item-unread">
-						<div class="dropdown-item-avatar">
-							<img alt="image" src="assets/img/avatar/avatar-2.png" class="rounded-circle">
-						</div>
-						<div class="dropdown-item-desc">
-							<b>Dedik Sugiharto</b>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
-							<div class="time">12 Hours Ago</div>
-						</div>
-					</a>
-					<a href="#" class="dropdown-item dropdown-item-unread">
-						<div class="dropdown-item-avatar">
-							<img alt="image" src="assets/img/avatar/avatar-3.png" class="rounded-circle">
-							<div class="is-online"></div>
-						</div>
-						<div class="dropdown-item-desc">
-							<b>Agung Ardiansyah</b>
-							<p>Sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-							<div class="time">12 Hours Ago</div>
-						</div>
-					</a>
-					<a href="#" class="dropdown-item">
-						<div class="dropdown-item-avatar">
-							<img alt="image" src="assets/img/avatar/avatar-4.png" class="rounded-circle">
-						</div>
-						<div class="dropdown-item-desc">
-							<b>Ardian Rahardiansyah</b>
-							<p>Duis aute irure dolor in reprehenderit in voluptate velit ess</p>
-							<div class="time">16 Hours Ago</div>
-						</div>
-					</a>
-					<a href="#" class="dropdown-item">
-						<div class="dropdown-item-avatar">
-							<img alt="image" src="assets/img/avatar/avatar-5.png" class="rounded-circle">
-						</div>
-						<div class="dropdown-item-desc">
-							<b>Alfa Zulkarnain</b>
-							<p>Exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
-							<div class="time">Yesterday</div>
-						</div>
-					</a>
-				</div>
-				<div class="dropdown-footer text-center">
-					<a href="#">View All <i class="fas fa-chevron-right"></i></a>
-				</div>
-			</div>
-		</li>
-		<li class="dropdown dropdown-list-toggle"><a href="#" data-toggle="dropdown" class="nav-link notification-toggle nav-link-lg beep"><i class="far fa-bell"></i></a>
-			<div class="dropdown-menu dropdown-list dropdown-menu-right">
-				<div class="dropdown-header">Notifications
-					<div class="float-right">
-						<a href="#">Mark All As Read</a>
-					</div>
-				</div>
-				<div class="dropdown-list-content dropdown-list-icons">
-					<a href="#" class="dropdown-item dropdown-item-unread">
-						<div class="dropdown-item-icon bg-primary text-white">
-							<i class="fas fa-code"></i>
-						</div>
-						<div class="dropdown-item-desc">
-							Template update is available now!
-							<div class="time text-primary">2 Min Ago</div>
-						</div>
-					</a>
-					<a href="#" class="dropdown-item">
-						<div class="dropdown-item-icon bg-info text-white">
-							<i class="far fa-user"></i>
-						</div>
-						<div class="dropdown-item-desc">
-							<b>You</b> and <b>Dedik Sugiharto</b> are now friends
-							<div class="time">10 Hours Ago</div>
-						</div>
-					</a>
-					<a href="#" class="dropdown-item">
-						<div class="dropdown-item-icon bg-success text-white">
-							<i class="fas fa-check"></i>
-						</div>
-						<div class="dropdown-item-desc">
-							<b>Kusnaedi</b> has moved task <b>Fix bug header</b> to <b>Done</b>
-							<div class="time">12 Hours Ago</div>
-						</div>
-					</a>
-					<a href="#" class="dropdown-item">
-						<div class="dropdown-item-icon bg-danger text-white">
-							<i class="fas fa-exclamation-triangle"></i>
-						</div>
-						<div class="dropdown-item-desc">
-							Low disk space. Let's clean it!
-							<div class="time">17 Hours Ago</div>
-						</div>
-					</a>
-					<a href="#" class="dropdown-item">
-						<div class="dropdown-item-icon bg-info text-white">
-							<i class="fas fa-bell"></i>
-						</div>
-						<div class="dropdown-item-desc">
-							Welcome to Stisla template!
-							<div class="time">Yesterday</div>
-						</div>
-					</a>
-				</div>
-				<div class="dropdown-footer text-center">
-					<a href="#">View All <i class="fas fa-chevron-right"></i></a>
-				</div>
-			</div>
-		</li>
-		<li class="dropdown"><a href="#" data-toggle="dropdown" class="nav-link dropdown-toggle nav-link-lg nav-link-user">
-				<img alt="image" src="assets/img/avatar/avatar-1.png" class="rounded-circle mr-1">
-				<div class="d-sm-none d-lg-inline-block">Hi, Ujang Maman</div>
-			</a>
-			<div class="dropdown-menu dropdown-menu-right">
-				<div class="dropdown-title">Logged in 5 min ago</div>
-				<a href="features-profile.html" class="dropdown-item has-icon">
-					<i class="far fa-user"></i> Profile
-				</a>
-				<a href="features-activities.html" class="dropdown-item has-icon">
-					<i class="fas fa-bolt"></i> Activities
-				</a>
-				<a href="features-settings.html" class="dropdown-item has-icon">
-					<i class="fas fa-cog"></i> Settings
-				</a>
-				<div class="dropdown-divider"></div>
-				<a href="#" class="dropdown-item has-icon text-danger">
-					<i class="fas fa-sign-out-alt"></i> Logout
-				</a>
-			</div>
-		</li>
-	</ul>
-</nav>
-<div class="main-sidebar sidebar-style-2">
-	<aside id="sidebar-wrapper">
-		<div class="sidebar-brand">
-			<a href="index.html">Stisla</a>
-		</div>
-		<div class="sidebar-brand sidebar-brand-sm">
-			<a href="index.html">St</a>
-		</div>
-		<ul class="sidebar-menu">
-			<li class="menu-header">Dashboard</li>
-			<li class="dropdown active">
-				<a href="#" class="nav-link has-dropdown"><i class="fas fa-fire"></i><span>Dashboard</span></a>
-				<ul class="dropdown-menu">
-					<li><a class="nav-link" href="index-0.html">General Dashboard</a></li>
-					<li class=active><a class="nav-link" href="index.html">Ecommerce Dashboard</a></li>
-				</ul>
-			</li>
-			<li class="menu-header">Starter</li>
-			<li class="dropdown">
-				<a href="#" class="nav-link has-dropdown" data-toggle="dropdown"><i class="fas fa-columns"></i> <span>Layout</span></a>
-				<ul class="dropdown-menu">
-					<li><a class="nav-link" href="layout-default.html">Default Layout</a></li>
-					<li><a class="nav-link" href="layout-transparent.html">Transparent Sidebar</a></li>
-					<li><a class="nav-link" href="layout-top-navigation.html">Top Navigation</a></li>
-				</ul>
-			</li>
-			<li><a class="nav-link" href="blank.html"><i class="far fa-square"></i> <span>Blank Page</span></a></li>
-			<li class="dropdown">
-				<a href="#" class="nav-link has-dropdown"><i class="fas fa-th"></i> <span>Bootstrap</span></a>
-				<ul class="dropdown-menu">
-					<li><a class="nav-link" href="bootstrap-alert.html">Alert</a></li>
-					<li><a class="nav-link" href="bootstrap-badge.html">Badge</a></li>
-					<li><a class="nav-link" href="bootstrap-breadcrumb.html">Breadcrumb</a></li>
-					<li><a class="nav-link" href="bootstrap-buttons.html">Buttons</a></li>
-					<li><a class="nav-link" href="bootstrap-card.html">Card</a></li>
-					<li><a class="nav-link" href="bootstrap-carousel.html">Carousel</a></li>
-					<li><a class="nav-link" href="bootstrap-collapse.html">Collapse</a></li>
-					<li><a class="nav-link" href="bootstrap-dropdown.html">Dropdown</a></li>
-					<li><a class="nav-link" href="bootstrap-form.html">Form</a></li>
-					<li><a class="nav-link" href="bootstrap-list-group.html">List Group</a></li>
-					<li><a class="nav-link" href="bootstrap-media-object.html">Media Object</a></li>
-					<li><a class="nav-link" href="bootstrap-modal.html">Modal</a></li>
-					<li><a class="nav-link" href="bootstrap-nav.html">Nav</a></li>
-					<li><a class="nav-link" href="bootstrap-navbar.html">Navbar</a></li>
-					<li><a class="nav-link" href="bootstrap-pagination.html">Pagination</a></li>
-					<li><a class="nav-link" href="bootstrap-popover.html">Popover</a></li>
-					<li><a class="nav-link" href="bootstrap-progress.html">Progress</a></li>
-					<li><a class="nav-link" href="bootstrap-table.html">Table</a></li>
-					<li><a class="nav-link" href="bootstrap-tooltip.html">Tooltip</a></li>
-					<li><a class="nav-link" href="bootstrap-typography.html">Typography</a></li>
-				</ul>
-			</li>
-			<li class="menu-header">Stisla</li>
-			<li class="dropdown">
-				<a href="#" class="nav-link has-dropdown"><i class="fas fa-th-large"></i> <span>Components</span></a>
-				<ul class="dropdown-menu">
-					<li><a class="nav-link" href="components-article.html">Article</a></li>
-					<li><a class="nav-link beep beep-sidebar" href="components-avatar.html">Avatar</a></li>
-					<li><a class="nav-link" href="components-chat-box.html">Chat Box</a></li>
-					<li><a class="nav-link beep beep-sidebar" href="components-empty-state.html">Empty State</a></li>
-					<li><a class="nav-link" href="components-gallery.html">Gallery</a></li>
-					<li><a class="nav-link beep beep-sidebar" href="components-hero.html">Hero</a></li>
-					<li><a class="nav-link" href="components-multiple-upload.html">Multiple Upload</a></li>
-					<li><a class="nav-link beep beep-sidebar" href="components-pricing.html">Pricing</a></li>
-					<li><a class="nav-link" href="components-statistic.html">Statistic</a></li>
-					<li><a class="nav-link" href="components-tab.html">Tab</a></li>
-					<li><a class="nav-link" href="components-table.html">Table</a></li>
-					<li><a class="nav-link" href="components-user.html">User</a></li>
-					<li><a class="nav-link beep beep-sidebar" href="components-wizard.html">Wizard</a></li>
-				</ul>
-			</li>
-			<li class="dropdown">
-				<a href="#" class="nav-link has-dropdown"><i class="far fa-file-alt"></i> <span>Forms</span></a>
-				<ul class="dropdown-menu">
-					<li><a class="nav-link" href="forms-advanced-form.html">Advanced Form</a></li>
-					<li><a class="nav-link" href="forms-editor.html">Editor</a></li>
-					<li><a class="nav-link" href="forms-validation.html">Validation</a></li>
-				</ul>
-			</li>
-			<li class="dropdown">
-				<a href="#" class="nav-link has-dropdown"><i class="fas fa-map-marker-alt"></i> <span>Google Maps</span></a>
-				<ul class="dropdown-menu">
-					<li><a href="gmaps-advanced-route.html">Advanced Route</a></li>
-					<li><a href="gmaps-draggable-marker.html">Draggable Marker</a></li>
-					<li><a href="gmaps-geocoding.html">Geocoding</a></li>
-					<li><a href="gmaps-geolocation.html">Geolocation</a></li>
-					<li><a href="gmaps-marker.html">Marker</a></li>
-					<li><a href="gmaps-multiple-marker.html">Multiple Marker</a></li>
-					<li><a href="gmaps-route.html">Route</a></li>
-					<li><a href="gmaps-simple.html">Simple</a></li>
-				</ul>
-			</li>
-			<li class="dropdown">
-				<a href="#" class="nav-link has-dropdown"><i class="fas fa-plug"></i> <span>Modules</span></a>
-				<ul class="dropdown-menu">
-					<li><a class="nav-link" href="modules-calendar.html">Calendar</a></li>
-					<li><a class="nav-link" href="modules-chartjs.html">ChartJS</a></li>
-					<li><a class="nav-link" href="modules-datatables.html">DataTables</a></li>
-					<li><a class="nav-link" href="modules-flag.html">Flag</a></li>
-					<li><a class="nav-link" href="modules-font-awesome.html">Font Awesome</a></li>
-					<li><a class="nav-link" href="modules-ion-icons.html">Ion Icons</a></li>
-					<li><a class="nav-link" href="modules-owl-carousel.html">Owl Carousel</a></li>
-					<li><a class="nav-link" href="modules-sparkline.html">Sparkline</a></li>
-					<li><a class="nav-link" href="modules-sweet-alert.html">Sweet Alert</a></li>
-					<li><a class="nav-link" href="modules-toastr.html">Toastr</a></li>
-					<li><a class="nav-link" href="modules-vector-map.html">Vector Map</a></li>
-					<li><a class="nav-link" href="modules-weather-icon.html">Weather Icon</a></li>
-				</ul>
-			</li>
-			<li class="menu-header">Pages</li>
-			<li class="dropdown">
-				<a href="#" class="nav-link has-dropdown"><i class="far fa-user"></i> <span>Auth</span></a>
-				<ul class="dropdown-menu">
-					<li><a href="auth-forgot-password.html">Forgot Password</a></li>
-					<li><a href="auth-login.html">Login</a></li>
-					<li><a href="auth-register.html">Register</a></li>
-					<li><a href="auth-reset-password.html">Reset Password</a></li>
-				</ul>
-			</li>
-			<li class="dropdown">
-				<a href="#" class="nav-link has-dropdown"><i class="fas fa-exclamation"></i> <span>Errors</span></a>
-				<ul class="dropdown-menu">
-					<li><a class="nav-link" href="errors-503.html">503</a></li>
-					<li><a class="nav-link" href="errors-403.html">403</a></li>
-					<li><a class="nav-link" href="errors-404.html">404</a></li>
-					<li><a class="nav-link" href="errors-500.html">500</a></li>
-				</ul>
-			</li>
-			<li class="dropdown">
-				<a href="#" class="nav-link has-dropdown"><i class="fas fa-bicycle"></i> <span>Features</span></a>
-				<ul class="dropdown-menu">
-					<li><a class="nav-link" href="features-activities.html">Activities</a></li>
-					<li><a class="nav-link" href="features-post-create.html">Post Create</a></li>
-					<li><a class="nav-link" href="features-posts.html">Posts</a></li>
-					<li><a class="nav-link" href="features-profile.html">Profile</a></li>
-					<li><a class="nav-link" href="features-settings.html">Settings</a></li>
-					<li><a class="nav-link" href="features-setting-detail.html">Setting Detail</a></li>
-					<li><a class="nav-link" href="features-tickets.html">Tickets</a></li>
-				</ul>
-			</li>
-			<li class="dropdown">
-				<a href="#" class="nav-link has-dropdown"><i class="fas fa-ellipsis-h"></i> <span>Utilities</span></a>
-				<ul class="dropdown-menu">
-					<li><a href="utilities-contact.html">Contact</a></li>
-					<li><a class="nav-link" href="utilities-invoice.html">Invoice</a></li>
-					<li><a href="utilities-subscribe.html">Subscribe</a></li>
-				</ul>
-			</li>
-			<li><a class="nav-link" href="credits.html"><i class="fas fa-pencil-ruler"></i> <span>Credits</span></a></li>
-		</ul>
-
-		<div class="mt-4 mb-4 p-3 hide-sidebar-mini">
-			<a href="https://getstisla.com/docs" class="btn btn-primary btn-lg btn-block btn-icon-split">
-				<i class="fas fa-rocket"></i> Documentation
-			</a>
-		</div>
-	</aside>
+		</a>
+		<a href="#!" class="pc-head-link" id="headerdrp-collapse">
+			<i data-feather="align-right"></i>
+		</a>
+		<a href="#!" class="pc-head-link" id="header-collapse">
+			<i data-feather="more-vertical"></i>
+		</a>
+	</div>
 </div>
+<!-- [ Mobile header ] End -->
+
+<!-- [ navigation menu ] start -->
+<nav class="pc-sidebar ">
+	<div class="navbar-wrapper">
+		<div class="m-header">
+			<a href="index.html" class="b-brand">
+				<!-- ========   change your logo hear   ============ -->
+				<img src="assets/images/logo.svg" alt="" class="logo logo-lg">
+				<img src="assets/images/logo-sm.svg" alt="" class="logo logo-sm">
+			</a>
+		</div>
+		<div class="navbar-content">
+			<ul class="pc-navbar">
+				<li class="pc-item pc-caption">
+					<label>Navigation</label>
+				</li>
+				<li class="pc-item">
+					<a href="index.html" class="pc-link "><span class="pc-micon"><i class="material-icons-two-tone">home</i></span><span class="pc-mtext">Dashboard</span></a>
+				</li>
+				<li class="pc-item pc-caption">
+					<label>Elements</label>
+					<span>UI Components</span>
+				</li>
+				<li class="pc-item pc-hasmenu">
+					<a href="#!" class="pc-link "><span class="pc-micon"><i class="material-icons-two-tone">business_center</i></span><span class="pc-mtext">Basic</span><span class="pc-arrow"><i data-feather="chevron-right"></i></span></a>
+					<ul class="pc-submenu">
+						<li class="pc-item"><a class="pc-link" href="bc_alert.html">Alert</a></li>
+						<li class="pc-item"><a class="pc-link" href="bc_button.html">Button</a></li>
+						<li class="pc-item"><a class="pc-link" href="bc_badges.html">Badges</a></li>
+						<li class="pc-item"><a class="pc-link" href="bc_breadcrumb-pagination.html">Breadcrumb & paggination</a></li>
+						<li class="pc-item"><a class="pc-link" href="bc_card.html">Cards</a></li>
+						<li class="pc-item"><a class="pc-link" href="bc_collapse.html">Collapse</a></li>
+						<li class="pc-item"><a class="pc-link" href="bc_carousel.html">Carousel</a></li>
+						<li class="pc-item"><a class="pc-link" href="bc_progress.html">Progress</a></li>
+						<li class="pc-item"><a class="pc-link" href="bc_modal.html">Modal</a></li>
+
+						<li class="pc-item"><a class="pc-link" href="bc_typography.html">Typography</a></li>
+					</ul>
+				</li>
+				<li class="pc-item">
+					<a href="icon-feather.html" class="pc-link "><span class="pc-micon"><i class="material-icons-two-tone">history_edu</i></span><span class="pc-mtext">Icons</span></a>
+				</li>
+				<li class="pc-item pc-caption">
+					<label>Forms</label>
+				</li>
+				<li class="pc-item pc-hasmenu">
+					<a href="#!" class="pc-link "><span class="pc-micon"><i class="material-icons-two-tone">edit</i></span><span class="pc-mtext">Forms Elements</span><span class="pc-arrow"><i data-feather="chevron-right"></i></span></a>
+					<ul class="pc-submenu">
+						<li class="pc-item"><a class="pc-link" href="form_elements.html">Form Basic</a></li>
+						<li class="pc-item"><a class="pc-link" href="form2_input_group.html">Input Groups</a></li>
+						<li class="pc-item"><a class="pc-link" href="form2_checkbox.html">Checkbox</a></li>
+						<li class="pc-item"><a class="pc-link" href="form2_radio.html">Radio</a></li>
+					</ul>
+				</li>
+				<li class="pc-item pc-caption">
+					<label>table</label>
+				</li>
+				<li class="pc-item">
+					<a href="tbl_bootstrap.html" class="pc-link "><span class="pc-micon"><i class="material-icons-two-tone">table_rows</i></span><span class="pc-mtext">Bootstrap table</span></a>
+				</li>
+				<li class="pc-item pc-caption">
+					<label>Chart & Maps</label>
+					<span>Tones of readymade charts</span>
+				</li>
+				<li class="pc-item">
+					<a href="chart-apex.html" class="pc-link "><span class="pc-micon"><i class="material-icons-two-tone">bubble_chart</i></span><span class="pc-mtext">Chart</span></a>
+				</li>
+				<li class="pc-item">
+					<a href="map-google.html" class="pc-link "><span class="pc-micon"><i class="material-icons-two-tone">my_location</i></span><span class="pc-mtext">Maps</span></a>
+				</li>
+				<li class="pc-item pc-caption">
+					<label>Pages</label>
+					<span>Redymade Pages</span>
+				</li>
+				<li class="pc-item pc-hasmenu">
+					<a href="#!" class="pc-link"><span class="pc-micon"><i class="material-icons-two-tone">https</i></span><span class="pc-mtext">Authentication</span><span class="pc-arrow"><i data-feather="chevron-right"></i></span></a>
+					<ul class="pc-submenu">
+						<li class="pc-item"><a class="pc-link" href="auth-signup.html" target="_blank">Sign up</a></li>
+						<li class="pc-item"><a class="pc-link" href="auth-signin.html" target="_blank">Sign in</a></li>
+					</ul>
+				</li>
+				<li class="pc-item pc-caption">
+					<label>Other</label>
+					<span>Extra more things</span>
+				</li>
+				<li class="pc-item pc-hasmenu">
+					<a href="#!" class="pc-link"><span class="pc-micon"><i class="material-icons-two-tone">list_alt</i></span><span class="pc-mtext">Menu levels</span><span class="pc-arrow"><i data-feather="chevron-right"></i></span></a>
+					<ul class="pc-submenu">
+						<li class="pc-item"><a class="pc-link" href="#!">Menu Level 2.1</a></li>
+						<li class="pc-item pc-hasmenu">
+							<a href="#!" class="pc-link">Menu level 2.2<span class="pc-arrow"><i data-feather="chevron-right"></i></span></a>
+							<ul class="pc-submenu">
+								<li class="pc-item"><a class="pc-link" href="#!">Menu level 3.1</a></li>
+								<li class="pc-item"><a class="pc-link" href="#!">Menu level 3.2</a></li>
+								<li class="pc-item pc-hasmenu">
+									<a href="#!" class="pc-link">Menu level 3.3<span class="pc-arrow"><i data-feather="chevron-right"></i></span></a>
+									<ul class="pc-submenu">
+										<li class="pc-item"><a class="pc-link" href="#!">Menu level 4.1</a></li>
+										<li class="pc-item"><a class="pc-link" href="#!">Menu level 4.2</a></li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+						<li class="pc-item pc-hasmenu">
+							<a href="#!" class="pc-link">Menu level 2.3<span class="pc-arrow"><i data-feather="chevron-right"></i></span></a>
+							<ul class="pc-submenu">
+								<li class="pc-item"><a class="pc-link" href="#!">Menu level 3.1</a></li>
+								<li class="pc-item"><a class="pc-link" href="#!">Menu level 3.2</a></li>
+								<li class="pc-item pc-hasmenu">
+									<a href="#!" class="pc-link">Menu level 3.3<span class="pc-arrow"><i data-feather="chevron-right"></i></span></a>
+									<ul class="pc-submenu">
+										<li class="pc-item"><a class="pc-link" href="#!">Menu level 4.1</a></li>
+										<li class="pc-item"><a class="pc-link" href="#!">Menu level 4.2</a></li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+				<li class="pc-item"><a href="sample-page.html" class="pc-link "><span class="pc-micon"><i class="material-icons-two-tone">storefront</i></span><span class="pc-mtext">Sample page</span></a></li>
+
+			</ul>
+		</div>
+	</div>
+</nav>
+<!-- [ navigation menu ] end -->
+<!-- [ Header ] start -->
+<header class="pc-header ">
+	<div class="header-wrapper">
+		<div class="mr-auto pc-mob-drp">
+			<ul class="list-unstyled">
+				<li class="dropdown pc-h-item">
+					<a class="pc-head-link active dropdown-toggle arrow-none mr-0" data-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
+						Level
+					</a>
+					<div class="dropdown-menu pc-h-dropdown">
+						<a href="#!" class="dropdown-item">
+							<i class="material-icons-two-tone">account_circle</i>
+							<span>My Account</span>
+						</a>
+						<div class="pc-level-menu">
+							<a href="#!" class="dropdown-item">
+								<i class="material-icons-two-tone">list_alt</i>
+								<span class="float-right"><i data-feather="chevron-right" class="mr-0"></i></span>
+								<span>Level2.1</span>
+							</a>
+							<div class="dropdown-menu pc-h-dropdown">
+								<a href="#!" class="dropdown-item">
+									<i class="fas fa-circle"></i>
+									<span>My Account</span>
+								</a>
+								<a href="#!" class="dropdown-item">
+									<i class="fas fa-circle"></i>
+									<span>Settings</span>
+								</a>
+								<a href="#!" class="dropdown-item">
+									<i class="fas fa-circle"></i>
+									<span>Support</span>
+								</a>
+								<a href="#!" class="dropdown-item">
+									<i class="fas fa-circle"></i>
+									<span>Lock Screen</span>
+								</a>
+								<a href="#!" class="dropdown-item">
+									<i class="fas fa-circle"></i>
+									<span>Logout</span>
+								</a>
+							</div>
+						</div>
+						<a href="#!" class="dropdown-item">
+							<i class="material-icons-two-tone">settings</i>
+							<span>Settings</span>
+						</a>
+						<a href="#!" class="dropdown-item">
+							<i class="material-icons-two-tone">support</i>
+							<span>Support</span>
+						</a>
+						<a href="#!" class="dropdown-item">
+							<i class="material-icons-two-tone">https</i>
+							<span>Lock Screen</span>
+						</a>
+						<a href="#!" class="dropdown-item">
+							<i class="material-icons-two-tone">chrome_reader_mode</i>
+							<span>Logout</span>
+						</a>
+					</div>
+				</li>
+			</ul>
+		</div>
+		<div class="ml-auto">
+			<ul class="list-unstyled">
+				<li class="dropdown pc-h-item">
+					<a class="pc-head-link dropdown-toggle arrow-none mr-0" data-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
+						<i class="material-icons-two-tone">search</i>
+					</a>
+					<div class="dropdown-menu dropdown-menu-right pc-h-dropdown drp-search">
+						<form class="px-3">
+							<div class="form-group mb-0 d-flex align-items-center">
+								<i data-feather="search"></i>
+								<input type="search" class="form-control border-0 shadow-none" placeholder="Search here. . .">
+							</div>
+						</form>
+					</div>
+				</li>
+				<li class="dropdown pc-h-item">
+					<a class="pc-head-link dropdown-toggle arrow-none mr-0" data-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
+						<img src="assets/images/user/avatar-2.jpg" alt="user-image" class="user-avtar">
+						<span>
+							<span class="user-name">Joseph William</span>
+							<span class="user-desc">Administrator</span>
+						</span>
+					</a>
+					<div class="dropdown-menu dropdown-menu-right pc-h-dropdown">
+						<div class=" dropdown-header">
+							<h5 class="text-overflow m-0"><span class="badge bg-light-primary"><a href="https://gumroad.com/dashboardkit" target="_blank">Upgrade to Pro</a></span></h5>
+						</div>
+
+						<a href="auth-signin.html" class="dropdown-item">
+							<i class="material-icons-two-tone">chrome_reader_mode</i>
+							<span>Logout</span>
+						</a>
+					</div>
+				</li>
+			</ul>
+		</div>
+
+	</div>
+</header>
+<!-- [ Header ] end -->
