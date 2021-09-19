@@ -1,5 +1,7 @@
-<?php
+@php $content = (isset($_GET['content'])) ? $_GET['content'] : 'home' ; @endphp
 
-	//if (isset($_GET[])) {
-	//	# code...
-	//}
+@if (file_exists('contents/' . $content . '.php'))
+	@include('contents/' . $content )
+@else
+	@include('contents/404')
+@endif
