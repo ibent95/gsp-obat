@@ -1,3 +1,8 @@
+<script>
+	//let table = new DataTable('#table-list', {
+	//	// options
+	//});
+</script>
 <div class="pcoded-content">
 	<!-- [ breadcrumb ] start -->
 	<div class="page-header">
@@ -29,15 +34,8 @@
 
 					<!-- Action buttons -->
 					<div class="row mb-4">
-						<div class="col-md">
+						<div class="col-md d-flex flex-row">
 							<div class="btn-group">
-								<button id="btnGroupDrop1" type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-									Dropdown
-								</button>
-								<ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
-									<li><a class="dropdown-item" href="#">Dropdown link</a></li>
-									<li><a class="dropdown-item" href="#">Dropdown link</a></li>
-								</ul>
 								<button class="btn btn-sm btn-shadow btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Expor</button>
 								<div class="dropdown-menu">
 									<a class="dropdown-item" href="#!">.pdf</a>
@@ -46,7 +44,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-md pull-right">
+						<div class="col-md d-flex flex-row-reverse">
 							<button class="btn btn-sm btn-shadow btn-primary">Tambah</button>
 						</div>
 					</div>
@@ -55,7 +53,7 @@
 					<div class="row mb-3">
 						<div class="col-md">
 							<div class="table-wrapper">
-								<table class="table table-striped table-condensed table-hover">
+								<table class="table table-striped table-condensed table-hover" id="table-list">
 									<thead>
 										<tr>
 											<th>#</th>

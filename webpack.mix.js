@@ -13,6 +13,7 @@ const mix = require('laravel-mix');
 
 mix
 .css('node_modules/bootstrap/dist/css/bootstrap.min.css', 'public/assets/css/main.css')
+.css('node_modules/datatables.net-bs4/css/dataTables.bootstrap4.min.css', 'public/assets/css/main.css')
 .css('node_modules/sweetalert2/dist/sweetalert2.min.css', 'public/assets/css/main.css')
 .css('resources/dashboardkit/fonts/feather.css', 'public/assets/css/main.css')
 .css('resources/dashboardkit/fonts/material.css', 'public/assets/css/main.css')
@@ -25,6 +26,7 @@ mix
 
 .js('node_modules/jquery/dist/jquery.min.js', 'public/assets/js/main.js')
 .js('node_modules/bootstrap/dist/js/bootstrap.bundle.min.js', 'public/assets/js/main.js')
+.js('node_modules/datatables.net-bs4/js/dataTables.bootstrap4.min.js', 'public/assets/js/main.js')
 .js('node_modules/sweetalert2/dist/sweetalert2.all.min.js', 'public/assets/js/main.js')
 
 .js('resources/dashboardkit/js/vendor-all.min.js', 'public/assets/js/main.js')
@@ -34,6 +36,7 @@ mix
 
 .autoload({
 	jquery: ['$', 'jQuery', 'window.jQuery'],
+	DataTable: ['datatables.net-bs4'],
 })
 .extract()
 .sourceMaps()

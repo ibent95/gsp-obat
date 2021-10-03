@@ -435,6 +435,8 @@ function floatchart() {
  * Custom
  */
 
+
+
 const boortapModal = document.getElementById('bootstrapModal');
 boortapModal?.addEventListener('show.bs.modal', function (this: HTMLElement, event: Event) {
 	const recipient = 'Ibnu' ;

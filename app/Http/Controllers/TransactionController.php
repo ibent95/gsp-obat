@@ -10,6 +10,8 @@ class TransactionController extends Controller {
 
     public function index() {
         $response = [
+            'title' => 'Transaksi',
+            'data' => [],
             'content' => 'transaction/main',
         ];
         return view('index', $response);
@@ -17,6 +19,7 @@ class TransactionController extends Controller {
 
     public function form() {
         $response = [
+            'title' => 'Transaksi',
             'content' => 'transaction/form',
         ];
         return view('index', $response);
@@ -24,6 +27,7 @@ class TransactionController extends Controller {
 
     public function insert() {
         $response = [
+            'title' => 'Transaksi',
             'content' => 'transaction/main',
         ];
         return view('index', $response);
@@ -31,6 +35,7 @@ class TransactionController extends Controller {
 
     public function remove() {
         $response = [
+            'title' => 'Transaksi',
             'content' => 'transaction/main',
         ];
         return view('index', $response);

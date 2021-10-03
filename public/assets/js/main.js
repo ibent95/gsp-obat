@@ -47,7 +47,7 @@ eval("\n\nvar __createBinding = this && this.__createBinding || (Object.create ?
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9yZXNvdXJjZXMvZGFzaGJvYXJka2l0L2ZvbnRzL2ZlYXRoZXIuY3NzLmpzIiwibWFwcGluZ3MiOiI7QUFBQSIsInNvdXJjZXMiOlsid2VicGFjazovLy8uL3Jlc291cmNlcy9kYXNoYm9hcmRraXQvZm9udHMvZmVhdGhlci5jc3M/MTVkMSJdLCJzb3VyY2VzQ29udGVudCI6WyIvLyBleHRyYWN0ZWQgYnkgbWluaS1jc3MtZXh0cmFjdC1wbHVnaW5cbmV4cG9ydCB7fTsiXSwibmFtZXMiOltdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./resources/dashboardkit/fonts/feather.css\n");
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9yZXNvdXJjZXMvZGFzaGJvYXJka2l0L2ZvbnRzL2ZlYXRoZXIuY3NzLmpzIiwibWFwcGluZ3MiOiI7QUFBQSIsInNvdXJjZXMiOlsid2VicGFjazovLy8uL3Jlc291cmNlcy9kYXNoYm9hcmRraXQvZm9udHMvZmVhdGhlci5jc3M/YjdlNCJdLCJzb3VyY2VzQ29udGVudCI6WyIvLyBleHRyYWN0ZWQgYnkgbWluaS1jc3MtZXh0cmFjdC1wbHVnaW5cbmV4cG9ydCB7fTsiXSwibmFtZXMiOltdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./resources/dashboardkit/fonts/feather.css\n");
 
 /***/ }),
 
@@ -58,7 +58,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extr
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9yZXNvdXJjZXMvZGFzaGJvYXJka2l0L2ZvbnRzL21hdGVyaWFsLmNzcy5qcyIsIm1hcHBpbmdzIjoiO0FBQUEiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9yZXNvdXJjZXMvZGFzaGJvYXJka2l0L2ZvbnRzL21hdGVyaWFsLmNzcz9jZmEyIl0sInNvdXJjZXNDb250ZW50IjpbIi8vIGV4dHJhY3RlZCBieSBtaW5pLWNzcy1leHRyYWN0LXBsdWdpblxuZXhwb3J0IHt9OyJdLCJuYW1lcyI6W10sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./resources/dashboardkit/fonts/material.css\n");
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9yZXNvdXJjZXMvZGFzaGJvYXJka2l0L2ZvbnRzL21hdGVyaWFsLmNzcy5qcyIsIm1hcHBpbmdzIjoiO0FBQUEiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9yZXNvdXJjZXMvZGFzaGJvYXJka2l0L2ZvbnRzL21hdGVyaWFsLmNzcz9iOTUxIl0sInNvdXJjZXNDb250ZW50IjpbIi8vIGV4dHJhY3RlZCBieSBtaW5pLWNzcy1leHRyYWN0LXBsdWdpblxuZXhwb3J0IHt9OyJdLCJuYW1lcyI6W10sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./resources/dashboardkit/fonts/material.css\n");
 
 /***/ }),
 
@@ -69,7 +69,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extr
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9yZXNvdXJjZXMvZGFzaGJvYXJka2l0L2Nzcy9zdHlsZS5jc3MuanMiLCJtYXBwaW5ncyI6IjtBQUFBIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vLy4vcmVzb3VyY2VzL2Rhc2hib2FyZGtpdC9jc3Mvc3R5bGUuY3NzPzg5MzkiXSwic291cmNlc0NvbnRlbnQiOlsiLy8gZXh0cmFjdGVkIGJ5IG1pbmktY3NzLWV4dHJhY3QtcGx1Z2luXG5leHBvcnQge307Il0sIm5hbWVzIjpbXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./resources/dashboardkit/css/style.css\n");
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9yZXNvdXJjZXMvZGFzaGJvYXJka2l0L2Nzcy9zdHlsZS5jc3MuanMiLCJtYXBwaW5ncyI6IjtBQUFBIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vLy4vcmVzb3VyY2VzL2Rhc2hib2FyZGtpdC9jc3Mvc3R5bGUuY3NzPzY2YWIiXSwic291cmNlc0NvbnRlbnQiOlsiLy8gZXh0cmFjdGVkIGJ5IG1pbmktY3NzLWV4dHJhY3QtcGx1Z2luXG5leHBvcnQge307Il0sIm5hbWVzIjpbXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./resources/dashboardkit/css/style.css\n");
 
 /***/ }),
 
@@ -87,7 +87,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extr
 },
 /******/ __webpack_require__ => { // webpackRuntimeModules
 /******/ var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-/******/ __webpack_require__.O(0, ["assets/css/main","assets/css/style","/assets/js/vendor"], () => (__webpack_exec__("./node_modules/jquery/dist/jquery.min.js"), __webpack_exec__("./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"), __webpack_exec__("./node_modules/sweetalert2/dist/sweetalert2.all.min.js"), __webpack_exec__("./resources/dashboardkit/js/vendor-all.min.js"), __webpack_exec__("./resources/dashboardkit/js/pcoded.min.js"), __webpack_exec__("./resources/ts/app.ts"), __webpack_exec__("./resources/sass/app.scss"), __webpack_exec__("./node_modules/bootstrap/dist/css/bootstrap.min.css"), __webpack_exec__("./node_modules/sweetalert2/dist/sweetalert2.min.css"), __webpack_exec__("./resources/dashboardkit/fonts/feather.css"), __webpack_exec__("./resources/dashboardkit/fonts/material.css"), __webpack_exec__("./resources/dashboardkit/css/style.css")));
+/******/ __webpack_require__.O(0, ["assets/css/main","assets/css/style","/assets/js/vendor"], () => (__webpack_exec__("./node_modules/jquery/dist/jquery.min.js"), __webpack_exec__("./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"), __webpack_exec__("./node_modules/datatables.net-bs4/js/dataTables.bootstrap4.min.js"), __webpack_exec__("./node_modules/sweetalert2/dist/sweetalert2.all.min.js"), __webpack_exec__("./resources/dashboardkit/js/vendor-all.min.js"), __webpack_exec__("./resources/dashboardkit/js/pcoded.min.js"), __webpack_exec__("./resources/ts/app.ts"), __webpack_exec__("./resources/sass/app.scss"), __webpack_exec__("./node_modules/bootstrap/dist/css/bootstrap.min.css"), __webpack_exec__("./node_modules/datatables.net-bs4/css/dataTables.bootstrap4.min.css"), __webpack_exec__("./node_modules/sweetalert2/dist/sweetalert2.min.css"), __webpack_exec__("./resources/dashboardkit/fonts/feather.css"), __webpack_exec__("./resources/dashboardkit/fonts/material.css"), __webpack_exec__("./resources/dashboardkit/css/style.css")));
 /******/ var __webpack_exports__ = __webpack_require__.O();
 /******/ }
 ]);
