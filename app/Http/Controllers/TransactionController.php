@@ -15,4 +15,25 @@ class TransactionController extends Controller {
         return view('index', $response);
     }
 
+    public function form() {
+        $response = [
+            'content' => 'transaction/form',
+        ];
+        return view('index', $response);
+    }
+
+    public function insert() {
+        $response = [
+            'content' => 'transaction/main',
+        ];
+        return view('index', $response);
+    }
+
+    public function remove() {
+        $response = [
+            'content' => 'transaction/main',
+        ];
+        return view('index', $response);
+    }
+
 }

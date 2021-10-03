@@ -21,6 +21,7 @@ Route::get('/', [HomeController::class, 'index']);
 
 // Drug's route
 Route::get('/drug', [DrugController::class, 'index']);
+Route::get('/drug-form/{uuid}', [DrugController::class, 'form']);
 Route::get('/drug/{uuid}', [DrugController::class, 'detail']);
 Route::post('/drug', [DrugController::class, 'insert']);
 Route::put('/drug/{uuid}', [DrugController::class, 'insert']);
@@ -28,6 +29,7 @@ Route::delete('/drug/{uuid}', [DrugController::class, 'remove']);
 
 // Transaction's route
 Route::get('/transaction', [TransactionController::class, 'index']);
+Route::get('/transaction-form/{uuid}', [TransactionController::class, 'form']);
 Route::get('/transaction/{uuid}', [TransactionController::class, 'detail']);
 Route::post('/transaction', [TransactionController::class, 'insert']);
 Route::put('/transaction/{uuid}', [TransactionController::class, 'insert']);
