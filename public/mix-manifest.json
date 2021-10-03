@@ -1,5 +1,7 @@
 {
-    "/assets/js/core.js": "/assets/js/core.js",
-    "/assets/css/core.css": "/assets/css/core.css",
-    "/assets/css/style.css": "/assets/css/style.css"
+    "/assets/js/main.js": "/assets/js/main.js",
+    "/assets/js/manifest.js": "/assets/js/manifest.js",
+    "/assets/css/main.css": "/assets/css/main.css",
+    "/assets/css/style.css": "/assets/css/style.css",
+    "/assets/js/vendor.js": "/assets/js/vendor.js"
 }
