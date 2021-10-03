@@ -41,22 +41,51 @@
 					<a href="{{ url()->to('/') }}" class="pc-link "><span class="pc-micon"><i class="material-icons-two-tone">home</i></span><span class="pc-mtext">Dashboard</span></a>
 				</li>
 
+				<!-- Master data -->
 				<li class="pc-item pc-caption">
-					<label>Elements</label>
-					<span>UI Components</span>
+					<label>Master data</label>
+					<!--<span>UI Components</span>-->
 				</li>
-				<li class="pc-item pc-hasmenu">
-					<a href="#!" class="pc-link "><span class="pc-micon"><i class="material-icons-two-tone">business_center</i></span><span class="pc-mtext">Basic</span><span class="pc-arrow"><i data-feather="chevron-right"></i></span></a>
+
+				<!-- Master data : drug -->
+				<li class="pc-item">
+					<a href="{{ url('drug') }}" class="pc-link ">
+						<span class="pc-micon">
+							<i class="material-icons-two-tone">history_edu</i>
+						</span>
+						<span class="pc-mtext">Obat</span>
+					</a>
+				</li>
+
+				<!-- Master data : transaction -->
+				<li class="pc-item">
+					<a href="{{ url('transaction') }}" class="pc-link ">
+						<span class="pc-micon">
+							<i class="material-icons-two-tone">history_edu</i>
+						</span>
+						<span class="pc-mtext">Transaksi</span>
+					</a>
+				</li>
+
+				<!--<li class="pc-item pc-hasmenu">
+					<a href="#!" class="pc-link ">
+						<span class="pc-micon">
+							<i class="material-icons-two-tone">drug</i>
+						</span>
+						<span class="pc-mtext">Obat</span>
+						<span class="pc-arrow">
+							<i data-feather="chevron-right"></i>
+						</span>
+					</a>
 					<ul class="pc-submenu">
 						<li class="pc-item"><a class="pc-link" href="bc_alert.html">Alert</a></li>
-						<!--<li class="pc-item"><a class="pc-link" href="bc_button.html">Button</a></li>-->
-						<!--<li class="pc-item"><a class="pc-link" href="bc_badges.html">Badges</a></li>-->
+						<li class="pc-item"><a class="pc-link" href="bc_button.html">Button</a></li>
+						<li class="pc-item"><a class="pc-link" href="bc_badges.html">Badges</a></li>
 
-						<!--<li class="pc-item"><a class="pc-link" href="bc_typography.html">Typography</a></li>-->
+						<li class="pc-item"><a class="pc-link" href="bc_typography.html">Typography</a></li>
 					</ul>
 				</li>
-
-				<!--<li class="pc-item">
+				<li class="pc-item">
 					<a href="icon-feather.html" class="pc-link "><span class="pc-micon"><i class="material-icons-two-tone">history_edu</i></span><span class="pc-mtext">Icons</span></a>
 				</li>
 				<li class="pc-item pc-caption">
