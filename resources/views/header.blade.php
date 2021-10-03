@@ -1,7 +1,7 @@
 <!-- [ Mobile header ] start -->
 <div class="pc-mob-header pc-header">
 	<div class="pcm-logo">
-		<img src="assets/images/logo.svg" alt="" class="logo logo-lg">
+		<img src="{{ url('assets/images/logo.svg') }}" alt="" class="logo logo-lg">
 	</div>
 	<div class="pcm-toolbar">
 		<a href="#!" class="pc-head-link" id="mobile-collapse">
@@ -25,10 +25,10 @@
 <nav class="pc-sidebar ">
 	<div class="navbar-wrapper">
 		<div class="m-header">
-			<a href="index.html" class="b-brand">
+			<a href="{{ url()->to('/') }}" class="b-brand">
 				<!-- ========   change your logo hear   ============ -->
-				<img src="assets/images/logo.svg" alt="" class="logo logo-lg">
-				<img src="assets/images/logo-sm.svg" alt="" class="logo logo-sm">
+				<img src="{{ url('assets/images/logo.svg') }}" alt="" class="logo logo-lg">
+				<img src="{{ url('assets/images/logo-sm.svg') }}" alt="" class="logo logo-sm">
 			</a>
 		</div>
 		<div class="navbar-content">

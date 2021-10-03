@@ -37,7 +37,9 @@ mix
 //    require('@fortawesome/fontawesome-free')
 //])
 ;
-
+mix.autoload({
+	jquery: ['$', 'window.jQuery']
+});
 //mix.override(webpackConfig => {
 //	webpackConfig.module.rules.push({
 //		test: /\.js$/,
