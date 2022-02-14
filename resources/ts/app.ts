@@ -9,6 +9,9 @@ import feather from '@feathersjs/feathers';
 import ApexCharts from 'apexcharts';
 import Swal from 'sweetalert2';
 
+window: Window;
+
+
 'use strict';
 
 var flg = "0";
@@ -79,7 +82,7 @@ $(document).ready(function() {
 		})
 	}), $(".pc-sidebar .pc-navbar a").each(function () {
 		var e = window.location.href.split(/[?#]/)[0];
-		if (this.href == e && "" != $(this).attr("href") && ($(this).parent("li").addClass("active"), $(this).parent("li").parent().parent(".pc-hasmenu").addClass("active").addClass("pc-trigger"), $(this).parent("li").parent().parent(".pc-hasmenu").parent().parent(".pc-hasmenu").addClass("active").addClass("pc-trigger"), $(this).parent("li").parent().parent(".sidelink").addClass("active"), $(this).parents(".pc-tabcontent").addClass("active"), $("body").hasClass("tab-layout"))) {
+		if ((this instanceof HTMLAnchorElement) && (this.href == e) && "" != $(this).attr("href") && ($(this).parent("li").addClass("active"), $(this).parent("li").parent().parent(".pc-hasmenu").addClass("active").addClass("pc-trigger"), $(this).parent("li").parent().parent(".pc-hasmenu").parent().parent(".pc-hasmenu").addClass("active").addClass("pc-trigger"), $(this).parent("li").parent().parent(".sidelink").addClass("active"), $(this).parents(".pc-tabcontent").addClass("active"), $("body").hasClass("tab-layout"))) {
 			var a = $(".pc-tabcontent.active").attr("data-value");
 			$(".tab-sidemenu > li").removeClass("active"), $('.tab-sidemenu > li > a[data-cont="' + a + '"]').parent("li").addClass("active")
 		}
@@ -95,18 +98,18 @@ $(document).ready(function() {
 	}, function () {
 		$(this).children(".dropdown-menu").removeClass("show")
 	}), $("body").hasClass("pc-horizontal")) {
-		var hpx, docH = $(window).height(),
+		var hpx: PerfectScrollbar, docH = $(window).height(),
 			docW = $(window).width();
-		docW > 1024 && $(".pc-horizontal .topbar .pc-submenu .pc-hasmenu").hover(function () {
+		docW! > 1024 && $(".pc-horizontal .topbar .pc-submenu .pc-hasmenu").hover(function () {
 			var e = $(this).children(".pc-submenu"),
 				a = e.offset(),
-				s = a.left,
-				i = a.top,
+				s = a!.left,
+				i = a!.top,
 				o = e.width(),
 				r = e.height(),
 				c = $(window).scrollTop();
-			if (s + o <= docW || e.addClass("edge"), !(i + r <= docH)) {
-				var n = i - c;
+			if (s + o! <= docW! || e.addClass("edge"), !(i + r! <= docH!)) {
+				var n = i - c!;
 				e.addClass("scroll-menu"), e.css("max-height", "calc(100vh - " + n + "px)"), hpx = new PerfectScrollbar(".scroll-menu", {
 					wheelSpeed: .5,
 					swipeEasing: false,
@@ -203,25 +206,26 @@ function rmmini() {
 }
 
 function collapseedge() {
-	var e, a = $(window).height();
-	$(window).width() > 1024 && $(".minimenu .pc-sidebar .pc-submenu .pc-hasmenu").hover(function () {
-		var s = $(this).children(".pc-submenu"),
-			i = s.offset(),
-			o = (i.left, i.top),
-			r = (s.width(), s.height()),
-			c = $(window).scrollTop();
-		if (!(o + r <= a)) {
-			var n = o - c;
-			s.addClass("scroll-menu"), s.css("max-height", "calc(100vh - " + n + "px)"), e = new PerfectScrollbar(".scroll-menu", {
-				wheelSpeed: .5,
-				swipeEasing: false,
-				suppressScrollX: !0,
-				wheelPropagation: true,
-				minScrollbarLength: 40
-			})
-		}
-	}, function () {
-		e.destroy(), $(".scroll-menu").removeAttr("style"), $(".scroll-menu").removeClass("scroll-menu")
+	var e: PerfectScrollbar, a = $(window).height();
+	1
+	$(window).width()! > 1024 && $(".minimenu .pc-sidebar .pc-submenu .pc-hasmenu").hover(function () {
+			var s = $(this).children(".pc-submenu"),
+				i = s.offset(),
+				o = (i!.left, i!.top),
+				r = (s.width(), s.height()),
+				c = $(window).scrollTop();
+			if (!(o? + r! <= a!)) {
+				var n = o! - c! ;
+				s.addClass("scroll-menu"), s.css("max-height", "calc(100vh - " + n + "px)"), e = new PerfectScrollbar(".scroll-menu", {
+					wheelSpeed: .5,
+					swipeEasing: false,
+					suppressScrollX: !0,
+					wheelPropagation: true,
+					minScrollbarLength: 40
+				})
+			}
+		}, function () {
+			e.destroy(), $(".scroll-menu").removeAttr("style"), $(".scroll-menu").removeClass("scroll-menu")
 	})
 }
 
